@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Making of and large database
+makingof/
+large_db/
+
 # Distribution / packaging
 .Python
 env/
@@ -17,7 +21,6 @@ eggs/
 .eggs/
 lib/
 lib64/
-makingof/
 parts/
 sdist/
 var/
