@@ -13,7 +13,7 @@ Cette image est le résultat fonctionnel de la version 3 de Learn 'n' Recognize.
 
 La version 5 (actuellement la dernière en date) allie la version 3, permettant de détecter et analyser en directe un visage, et la version 4, permettant l'apprentissage d'un visage (en l'associant à un nom), en proposant ces fonctionnalités sous formes de deux modes. Il est alors possible, d'apprendre un visage en l'associant à un nom (mode apprentissage) et ensuite de le distinguer parmis plusieurs autres visage (mode scan); le tout en une seule et unique application.
 
-Voici un "proof of concept" en vidéo de la version 5:
+Voici un "proof of concept" en vidéo de la version 5 (cliquez sur la vignette pour ouvrir YouTube.com):
 
 [![Learn 'n' Recognize V5 - Proof of concept](http://img.youtube.com/vi/9-2KMnhYZOk/0.jpg)](https://www.youtube.com/watch?v=9-2KMnhYZOk "Learn 'n' Recognize V5 - Proof of concept ")
 
