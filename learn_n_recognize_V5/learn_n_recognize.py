@@ -51,7 +51,7 @@ video_camera_id = int(sys.argv[3])
 # Arg 4: video scale factor (2.5 i.e.)
 video_scale = float(sys.argv[4])
 
-# Arg 5: Person's name to learning
+# Arg 5: Person's name to learn (escape spaces with \ !!)
 subject_name = sys.argv[5]
 # Arg 6: Person's id associated to name (should be unique)
 subject_id = int(sys.argv[6])

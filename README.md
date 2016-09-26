@@ -1,7 +1,7 @@
 # Lean 'n' Recognize
 Détecte, analyse et compare des visages sur des images issues de différentes sources
 
-Cette image est le résultat fonctionnel du tout premier algorithme de ma fabrication utilisant le mécanisme de Haar Cascade, basé sur les travaux de [Natoshi Seo](http://note.sonots.com/SciSoftware/haartraining.html):
+Cette image est le résultat fonctionnel du tout premier algorithme de ma fabrication utilisant le mécanisme de Haar Cascade, basé sur les travaux de [Naotoshi Seo](http://note.sonots.com/SciSoftware/haartraining.html):
 
 ![alt tag ](https://github.com/blackrainb0w/Lean-n-Recognize/raw/master/testCam/proof.png "Learn 'n' Recognize V0")
 <p style="text-align: center; font-style: italic;">Learn 'n' Recognize V0 (testCam) "proof of concept"</p>
