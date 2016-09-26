@@ -17,4 +17,6 @@ Voici un "proof of concept" en vidéo de la version 5:
 
 [[Learn 'n' Recognize V5 - Proof of concept](http://img.youtube.com/vi/9-2KMnhYZOk/0.jpg)](https://www.youtube.com/watch?v=9-2KMnhYZOk "Learn 'n' Recognize V5 - Proof of concept ")
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9-2KMnhYZOk" frameborder="0" allowfullscreen></iframe>
+
 Learn 'n' Recognize est distribué sous [licence Apache Version 2.0](http://www.apache.org/licenses/)
