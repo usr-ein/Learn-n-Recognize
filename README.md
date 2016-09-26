@@ -15,6 +15,6 @@ La version 5 (actuellement la dernière en date) allie la version 3, permettant 
 
 Voici un "proof of concept" en vidéo de la version 5:
 
-[![Learn 'n' Recognize V5 - Proof of concept](http://img.youtube.com/vi/9-2KMnhYZOk/0.jpg)](https://www.youtube.com/watch?v=9-2KMnhYZOk "Learn 'n' Recognize V5 - Proof of concept ")
+[[Learn 'n' Recognize V5 - Proof of concept](http://img.youtube.com/vi/9-2KMnhYZOk/0.jpg)](https://www.youtube.com/watch?v=9-2KMnhYZOk "Learn 'n' Recognize V5 - Proof of concept ")
 
 Learn 'n' Recognize est distribué sous [licence Apache Version 2.0](http://www.apache.org/licenses/)
