@@ -5,10 +5,8 @@ cascPath = sys.argv[1]
 faceCascade = cv2.CascadeClassifier(cascPath)
 
 # 0 is the MacBook Pro front camera
-# video_capture = cv2.VideoCapture(0)
-
 # 1 is the external webcam
-video_capture = cv2.VideoCapture(1)
+video_capture = cv2.VideoCapture(int(sys.argv[2]))
 
 while True:
 	# Capture frame-by-frame
@@ -18,12 +16,26 @@ while True:
 
 	faces = faceCascade.detectMultiScale(
 	gray,
-	scaleFactor=1.1,
-	# 7 is good
+	# 1.1 default
+	scaleFactor=1.3,
+	# 5 default
 	minNeighbors=5,
-	minSize=(30, 30),
+	# 30x30 default
+	minSize=(70, 70),
 	flags=cv2.cv.CV_HAAR_SCALE_IMAGE
 	)
+
+	# "Ye old way"
+	# faces = faceCascade.detectMultiScale(
+	# gray,
+	# # 1.1 default
+	# scaleFactor=1.1,
+	# # 5 default
+	# minNeighbors=5,
+	# # 30x30 default
+	# minSize=(30, 30),
+	# flags=cv2.cv.CV_HAAR_SCALE_IMAGE
+	# )
 
 	# Draw a rectangle around the faces
 	for (x, y, w, h) in faces:
