@@ -1,4 +1,4 @@
-# Lean 'n' Recognize
+# Learn 'n' Recognize
 Détecte, analyse et compare des visages sur des images issues de différentes sources
 
 Cette image est le résultat fonctionnel du tout premier algorithme de ma fabrication utilisant le mécanisme de Haar Cascade, basé sur les travaux de [Naotoshi Seo](http://note.sonots.com/SciSoftware/haartraining.html):
