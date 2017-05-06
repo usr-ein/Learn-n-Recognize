@@ -56,6 +56,9 @@ subject_name = sys.argv[5]
 # Arg 6: Person's id associated to name (should be unique)
 subject_id = int(sys.argv[6])
 
+# Arg 7: Path to haar cascade xml file
+haar_file = sys.argv[7]
+
 # Rate by which the text size in/decrease, 3.3 default
 dynamicTextScalingRate = 3.3
 
@@ -232,7 +235,7 @@ if IsIDTaken(subject_id, pathToDB) :
         exit()
 
 webcam = cv2.VideoCapture(video_camera_id)
-faceCascade = GetHaarCascade()
+faceCascade = GetHaarCascade(haar_file)
 LBPH_recognizer, recognizerStatus = GetLBPHFromDB(pathToDB, faceCascade)
 
 while True:
@@ -274,7 +277,7 @@ while True:
             cv2.putText(frame, "{} ({}%)".format(name_predicated, conf), (int(x - textScale/3), y), cv2.FONT_HERSHEY_SIMPLEX, textScale, (b,g,r), 2)
             cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-            cv2.putText(frame, "Mode scan", (int(np.size(frame, 1)) - 190, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 2)
+            cv2.putText(frame, "Mode scan", (20, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 2)
 
 
         # Learning
@@ -294,7 +297,7 @@ while True:
             cv2.putText(frame, "{} ({}%)".format(subject_name, conf), (int(x - textScale/3), y), cv2.FONT_HERSHEY_SIMPLEX, textScale, (b, g, r), 2)
             cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-            cv2.putText(frame, "Mode apprentissage", (int(np.size(frame, 1)) - 190, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,255), 2)
+            cv2.putText(frame, "Mode apprentissage", (20, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,0,255), 2)
 
             if recognizerStatus :
                 if thresholdValidity <= conf:
